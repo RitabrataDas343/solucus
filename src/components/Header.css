@@ -1,0 +1,14 @@
+h3 { text-align: center; padding: 20px 0px; }
+nav ul { display: flex; margin: 20px 0px 0px 0px; padding: 0; }
+nav ul li { margin: 0; padding:0; list-style: none; clear: both; }
+nav ul li a { padding: 20px; font-size: 18px; }
+nav ul li a.active { background: #444; color: white; }
+nav ul li a:hover { text-decoration: none;  background: #eee; color:black; }
+nav ul:after { clear: both; }
+
+nav select.map-selector { clear:both; margin: 0px; height: 65px; margin-top: -20px; padding: 20px 0px; font-size: 18px; }
+
+.wallet { font-size: 12px; }
+.wallet .line1 { color: #aaa; }
+.wallet .networkTitle { margin-left: 10px; background: darkred; color:white; font-weight: bold; padding-left: 10px; padding-right: 10px; }
+.wallet .balance { font-weight: bold; margin-left: 10px; color: black; }
